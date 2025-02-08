@@ -1,0 +1,69 @@
+* {
+
+    box-sizing: border-box;
+}
+
+.heading {
+    background-color: red;
+    text-align: center;
+    color: white;
+
+}
+
+h2 {
+    padding: 20px;
+}
+
+.border {
+    border: 0px black solid;
+}
+
+.container {
+    height: 400px;
+    width: 100%;
+    padding: 5px 0px;
+}
+
+.left {
+    width: 70%;
+    float: left;
+    height: 390px;
+}
+
+.right {
+    width: 10%;
+    float: left;
+    height: 390px;
+    margin-left: 90px;
+}
+.redText{
+    color: red;
+    font-size: 20px;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+}
+
+.simpleRed{
+    color: red;
+    font-size: 20px;
+}
+button{
+    background-color: red;
+    margin: 10px 0px;
+    color: white;
+}
+
+.footer{
+    background-color: red;
+    height: 20px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+ul li{
+    width: 200px;
+    float: left;
+    height: 20px;
+}
