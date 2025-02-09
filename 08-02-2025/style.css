@@ -1,0 +1,98 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg{
+    background-image: url("https://i.pinimg.com/736x/1f/24/c1/1f24c13333631e8894845502f257e3fb.jpg");
+    width: 100%;
+    height: 620px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.ig{
+    width: 400px;
+   
+}
+
+.vh{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: -300px;
+    animation-name: ani;
+    animation-duration:8s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+    
+}
+
+.vh2{
+    position: absolute;
+    top: 40%;
+    right: -300px;
+    animation-name: ani;
+    animation-duration:8s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+
+}
+.one{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    left: -300px;
+    animation-name: ani;
+    animation-duration:8s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.vh3{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    right: -300px;
+    animation-name: ani;
+    animation-duration: 6s;
+    animation-delay: 1.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+
+
+.two{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    top: 60%;
+    right: -300px;
+    animation-name: ani;
+    animation-duration:8s;
+    animation-delay: 0.5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    
+}
+
+
+@keyframes ani{
+    from{
+        left: -300px;
+    }
+
+    to{
+        left: 1200px;
+    }
+}
