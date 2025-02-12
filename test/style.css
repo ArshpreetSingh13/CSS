@@ -1,0 +1,208 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+.home {
+    width: 100%;
+    height: 450px;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-size: cover;
+    padding: 30px 90px;
+}
+
+.text {
+    color: white;
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.app {
+    width: 44%;
+    font-size: 15px;
+    float: left;
+}
+
+.nav {
+    width: 54%;
+    font-size: 20px;
+    float: left;
+}
+
+.text span {
+    padding-left: 50px;
+}
+
+.zomato {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 80px;
+    font-style: italic;
+}
+
+.dis {
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+.lo{
+    position: relative;
+    left: 15%;
+    top: 5%;
+    background-color: #fff;
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    padding: 13px 10px;
+}
+.location{
+    height: 30px;
+}
+.location_logo{
+    width: 30px;
+    float: left;
+
+}
+.location_input{
+    width: 160px;
+    float: left;
+    height: auto;
+}
+input{
+    border: none;
+    padding-top: 2px;
+    font-size: 18px;
+}
+.down_logo{
+    width: 20px;
+    float: left;
+    padding-top: 5px;
+}
+.hr{
+    border: 1px solid rgb(138, 137, 137);
+    width: 1px;
+    float: left;
+    margin: 0px 0px ;
+    border-radius: 20px;
+    height: 25px;
+}
+.search{
+    width: 40px ;
+    float: left;
+
+    padding: 3px 8px;
+}
+.location_inputA{
+    width: 500px;
+    float: left;
+    height: auto;
+
+}
+.inputA{
+    width: 400px;
+}
+
+.container{
+    padding: 50px 127px;
+    height: 400px;
+}
+.dish1{
+    width: 510px;
+    height: 300px;
+    border-radius: 20px;
+    float: left;
+    margin-right: 70px;
+    
+}
+.dish2{
+    width: 510px;
+    height: 300px;
+    border-radius: 20px;
+    float: left;
+    
+}
+.img1{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width:100%;
+    height: 60%;
+    object-fit: cover;
+}
+.about{
+    padding: 15px;
+    color: rgb(70, 70, 70);
+}
+
+.footer{
+    height: 600px;
+    padding: 0px 120px;
+}
+
+.inner{
+    height: 400px;
+    color: rgb(46, 46, 46);
+    font-weight: lighter;
+}
+.FP{
+    width: 70%;
+    float: left;
+    padding-top: 10px;
+}
+.Collection{
+    color: rgb(248, 124, 124);
+    padding-top: 10px;
+}
+.elements{
+    padding-top: 30px;
+    height: 500px;
+    width: 100%;
+}
+.element1  img ,.element2 img ,.element3 img,.element4 img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+
+}
+.element1{
+    width: 23%;
+    float: left;
+
+}
+.element2{
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+
+}
+.element3{
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+
+}
+.element4{
+    width: 23%;
+    float: left;
+    margin-left: 10px;
+
+}
+
+section{
+    position: relative;
+    top: -47px;
+    left: 0px;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    font-size: 18px;
+    background-image: linear-gradient(rgba(32, 32, 32, 0.1), rgb(0, 0, 0));
+    
+}
